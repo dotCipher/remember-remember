@@ -113,6 +113,10 @@ p, span {
   font-weight: bold;
 }
 
+.cover-heading-padding {
+  padding-top: 20px;
+}
+
 
 /*
  * Footer
