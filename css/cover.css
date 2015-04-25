@@ -23,12 +23,21 @@ body {
 /*
  * Base fonts
  */
-h1, h2, h3, h4 {
+h1 {
   font-family: GreatVibes;
-  font-size: 600%;
+  font-size: 700%;
+}
+h2 {
+  font-family: GreatVibes;
+  font-size: 500%;
 }
 p, span {
   font-family: Raleway-Light;
+}
+
+.lead-bold {
+  font-family: Raleway-Light;
+  font-size: 130%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
