@@ -1,0 +1,98 @@
+/*
+ * Globals
+ */
+
+/* Custom fonts */
+@font-face { font-family: GreatVibes; src: url('../fonts/GreatVibes-Regular.ttf'); }
+@font-face { font-family: Raleway-Light; src: url('../fonts/Raleway-Light.ttf'); }
+
+/*
+ * Base structure
+ */
+html, body {
+  height: 100%;
+  background-color: #1e1e1e;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+
+/*
+ * Base fonts
+ */
+h1 {
+  font-family: GreatVibes;
+  font-size: 12.5vmin;
+}
+p {
+  font-family: Raleway-Light;
+  font-size: 6vmin;
+}
+span {
+  font-family: Raleway-Light;
+  font-size: 10vmin;
+}
+span.inverted {
+  color: #1e1e1e;
+}
+span.small {
+  font-size: 5vmin;
+}
+span.micro {
+  font-size: 3vmin;
+}
+
+.days {
+  text-align: center;
+}
+.hours {
+  text-align: center;
+}
+.minutes {
+  text-align: center;
+}
+.seconds {
+  text-align: center;
+}
+
+
+.row {
+  padding-top: 10vmin;
+}
+
+.script {
+  font-family: GreatVibes;
+}
+
+.print {
+  font-family: Raleway-Light;
+}
+
+.inline {
+  display: inline;
+  padding: 5px;
+}
+
+.card-container {
+  background-color: #c3c3c3;
+  height: 100vh;
+  min-height: 400px;
+  padding-top: 10vh;
+}
+.top-padded {
+  padding-top: 5vh;
+}
+
+.timer {
+  font-family: Raleway-Light;
+  font-size: 1vmax;
+}
+/*
+ * Cover
+ */
+.cover-container {
+  height: 100vh;
+  min-height: 400px;
+  padding-top: 20vh;
+}
