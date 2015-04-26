@@ -40,7 +40,7 @@ span.small {
   font-size: 5vmin;
 }
 span.micro {
-  font-size: 3vmin;
+  font-size: 4vmin;
 }
 
 .days {
@@ -83,11 +83,19 @@ span.micro {
 .top-padded {
   padding-top: 5vh;
 }
+.top-padded-strong {
+  padding-top: 20vh;
+}
+.no-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 .timer {
   font-family: Raleway-Light;
   font-size: 1vmax;
 }
+
 /*
  * Cover
  */
@@ -95,4 +103,5 @@ span.micro {
   height: 100vh;
   min-height: 400px;
   padding-top: 20vh;
+  padding-bottom: 20vh;
 }
