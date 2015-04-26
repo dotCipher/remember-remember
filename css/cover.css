@@ -31,13 +31,21 @@ h2 {
   font-family: GreatVibes;
   font-size: 500%;
 }
+h3 {
+  font-family: GreatVibes;
+  font-size: 300%;
+}
+h4 {
+  font-family: GreatVibes;
+  font-size: 150%;
+}
 p, span {
   font-family: Raleway-Light;
 }
 
 .lead-bold {
   font-family: Raleway-Light;
-  font-size: 130%;
+  font-size: 110%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -123,7 +131,7 @@ p, span {
 }
 
 .cover-heading-padding {
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 
